@@ -38,7 +38,7 @@
 | **[AWS IoT](https://polralabs.com/services/aws-iot/)** | Device-to-cloud pipelines: secure MQTT telemetry, live dashboards, remote settings and firmware updates |
 | **[Cloud: AWS and Cloudflare](https://polralabs.com/services/cloud/)** | Cloud architecture, migrations and edge hosting: one secure, manageable setup instead of scattered providers |
 | **[AI agents](https://polralabs.com/services/ai-agents/)** | Agents and RAG systems that do real work: multi-step planning, document Q&A, tool calling, human approval |
-| **[Medical devices](https://polralabs.com/services/medical-devices/)** | Software for therapy, lab and surgical equipment, where safety, traceability and reliability come first |
+| **[Medical devices](https://polralabs.com/services/medical-devices/)** | Software for medical, lab and surgical equipment, where safety, traceability and reliability come first |
 
 ---
 
@@ -106,15 +106,6 @@
 
 ## Our Work
 
-### EMS Therapy System: medical devices
-Clinician app and wireless stimulator firmware for 8-channel electrical-stimulation therapy: a Qt 6/QML app for iPad and Mac, four ESP32-S3 nodes over BLE and an ESP-NOW mesh, AWS IoT telemetry and OTA updates.
-
-![EMS Therapy System](images/ems-therapy-system.png)
-
-[Read the case study →](https://polralabs.com/work/ems-therapy-system/)
-
----
-
 ### Power Management & Alarm HMI: industrial power
 Qt/QML operator HMI for a multi-generator plant: generator gauges, breakers, feeders, shore supply, priority control, alarms and trends, with a Python plant simulator for testing without hardware.
 
@@ -170,16 +161,12 @@ Qt/C++ control software for automated, high-throughput protein purification of u
 
 ---
 
-### Multi-Agent Task Orchestrator: AI automation (architecture and prototypes)
-A team of AI agents that plans a task, runs steps in parallel, reviews each other's work and waits for human approval. Designed on Temporal workflows with FastAPI, a PostgreSQL + pgvector knowledge base, and a model per role (Claude, OpenAI or a local model).
-
-![Multi-Agent Task Orchestrator](images/multi-agent-orchestrator.png)
-
-[Read the case study →](https://polralabs.com/work/multi-agent-orchestrator/)
+### Medical Device Software
+Application and embedded software for a medical device. The client, the device and its screens are under NDA, so there is no screenshot here.
 
 ---
 
-**More projects** on [polralabs.com/work](https://polralabs.com/work/): a mixed-signal verification debugger (EDA), video streaming and recording desktop apps, an IEC-104 multi-device telemetry client, a gemstone angle inspection station, a surgical machine control GUI, and customer-support AI chatbots (response time down 40%).
+**More projects** on [polralabs.com/work](https://polralabs.com/work/): a mixed-signal verification debugger (EDA), video streaming and recording desktop apps, an IEC-104 multi-device telemetry client, a gemstone angle inspection station, a surgical machine control GUI, a document Q&A agent (LangGraph, hybrid search), and customer-support AI chatbots (response time down 40%).
 
 ---
 
