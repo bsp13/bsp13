@@ -106,6 +106,13 @@
 
 ## Our Work
 
+### Medical Device Software
+Cross-platform Qt 6/QML app and ESP32-S3 embedded firmware for a medical device: wireless control over Bluetooth LE, cloud telemetry over MQTT to AWS IoT, and over-the-air firmware updates.
+
+![Medical Device Software](images/medical-device.png)
+
+---
+
 ### Power Management & Alarm HMI: industrial power
 Qt/QML operator HMI for a multi-generator plant: generator gauges, breakers, feeders, shore supply, priority control, alarms and trends, with a Python plant simulator for testing without hardware.
 
@@ -161,8 +168,12 @@ Qt/C++ control software for automated, high-throughput protein purification of u
 
 ---
 
-### Medical Device Software
-Application and embedded software for a medical device. The client, the device and its screens are under NDA, so there is no screenshot here.
+### Multi-Agent Task Orchestrator: AI automation (architecture and prototypes)
+A team of AI agents that plans a task, runs steps in parallel, reviews each other's work and waits for human approval. Designed on Temporal workflows with FastAPI, a PostgreSQL + pgvector knowledge base, and a model per role (Claude, OpenAI or a local model).
+
+![Multi-Agent Task Orchestrator](images/multi-agent-orchestrator.png)
+
+[Read the case study →](https://polralabs.com/work/multi-agent-orchestrator/)
 
 ---
 
