@@ -111,6 +111,8 @@ Cross-platform Qt 6/QML app and ESP32-S3 embedded firmware for a medical device:
 
 ![Medical Device Software](images/medical-device.png)
 
+[Read the case study →](https://polralabs.com/work/medical-device-software/)
+
 ---
 
 ### Power Management & Alarm HMI: industrial power
