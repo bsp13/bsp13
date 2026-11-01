@@ -5,7 +5,7 @@
 <h1 align="center">Polra Labs</h1>
 
 <h3 align="center">
-  Embedded, Qt/QML, IoT and AI software for medical, industrial and lab equipment
+  Qt/QML, embedded, FPGA, IoT and AI software for medical, industrial and lab equipment
 </h3>
 
 <p align="center">
@@ -22,7 +22,7 @@
 
 ## About Us
 
-**Polra Labs** designs and builds connected machines: embedded firmware, FPGA hardware, Qt/QML apps, cloud on AWS and Cloudflare, and AI agents for medical, industrial and lab equipment, backed by 15+ years of engineering. Founded by Bhavesh Polra.
+**Polra Labs** designs and builds connected machines: Qt/QML apps, embedded firmware, FPGA hardware, cloud on AWS and Cloudflare, and AI agents for medical, industrial and lab equipment, backed by 15+ years of engineering. Founded by Bhavesh Polra.
 
 > **About the code on this profile:** our client work is under NDA, so its source code stays private. Every screen below is a concept recreation drawn by us with made-up data. The client's UI, names and data stay private.
 
@@ -33,12 +33,12 @@
 | Service | Description |
 |:--------|:------------|
 | **[Qt / QML applications](https://polralabs.com/services/qt-qml/)** | Desktop, embedded and mobile interfaces for machines: HMIs, device-control software, real-time dashboards and camera tools |
+| **[Medical devices](https://polralabs.com/services/medical-devices/)** | Software for medical, lab and surgical equipment, where safety, traceability and reliability come first |
 | **[ESP32 & Raspberry Pi](https://polralabs.com/services/esp32-raspberry-pi/)** | Firmware and embedded Linux for connected products: wireless sensor nodes, touch-screen appliances, OTA updates |
 | **[FPGA & industrial MCUs](https://polralabs.com/services/fpga-industrial-mcus/)** | Motion-control hardware designed end to end: board design, VHDL logic, firmware and the PC software that drives it |
 | **[AWS IoT](https://polralabs.com/services/aws-iot/)** | Device-to-cloud pipelines: secure MQTT telemetry, live dashboards, remote settings and firmware updates |
 | **[Cloud: AWS and Cloudflare](https://polralabs.com/services/cloud/)** | Cloud architecture, migrations and edge hosting: one secure, manageable setup instead of scattered providers |
 | **[AI agents](https://polralabs.com/services/ai-agents/)** | Agents and RAG systems that do real work: multi-step planning, document Q&A, tool calling, human approval |
-| **[Medical devices](https://polralabs.com/services/medical-devices/)** | Software for medical, lab and surgical equipment, where safety, traceability and reliability come first |
 
 ---
 
@@ -124,15 +124,6 @@ Qt/QML operator HMI for a multi-generator plant: generator gauges, breakers, fee
 
 ---
 
-### 5-Axis Motion Control Card: laser machines
-FPGA motion-control card built end to end (board design, VHDL, firmware and the Qt PC software): 5-axis motion over Ethernet, a USB card variant, and galvo scanner control over XY2-100.
-
-![5-Axis Motion Control Card](images/motion-control-card.png)
-
-[Read the case study →](https://polralabs.com/work/motion-control-card/)
-
----
-
 ### SCADA Dashboard Builder & Viewer: industrial automation
 Drag-and-drop builder and runtime viewer for real-time plant dashboards: an alarm engine with audit trail, themeable SVG widgets, PostgreSQL + TimescaleDB for time-series data, and a WebAssembly viewer that runs in the browser.
 
@@ -140,10 +131,26 @@ Drag-and-drop builder and runtime viewer for real-time plant dashboards: an alar
 
 ---
 
+### Protein Purification Controller: lab automation
+Qt/C++ control software for automated, high-throughput protein purification of up to 24 samples in parallel. Lab efficiency up 25%.
+
+![Protein Purification Controller](images/protein-purification.png)
+
+---
+
 ### Self-Cleaning Smoothie Machine: food tech
 Fully automated, self-cleaning machine on a Raspberry Pi 4B: a C++/Qt/QML touch UI, motor, pump and sensor control, and AWS IoT Core + Lambda for remote monitoring, analytics and firmware updates.
 
 ![Self-Cleaning Smoothie Machine](images/smoothie-machine.png)
+
+---
+
+### 5-Axis Motion Control Card: laser machines
+FPGA motion-control card built end to end (board design, VHDL, firmware and the Qt PC software): 5-axis motion over Ethernet, a USB card variant, and galvo scanner control over XY2-100.
+
+![5-Axis Motion Control Card](images/motion-control-card.png)
+
+[Read the case study →](https://polralabs.com/work/motion-control-card/)
 
 ---
 
@@ -160,13 +167,6 @@ Device telemetry through AWS IoT Core and Lambda onto a live dashboard, and a mi
 C++/Qt/OpenCV software that builds a 3D model of the stone with hardware-controlled scanning and finds the impurities in it. Detection accuracy up 30% over the legacy system.
 
 ![Diamond Inclusion Detection System](images/diamond-inclusion-detection.png)
-
----
-
-### Protein Purification Controller: lab automation
-Qt/C++ control software for automated, high-throughput protein purification of up to 24 samples in parallel. Lab efficiency up 25%.
-
-![Protein Purification Controller](images/protein-purification.png)
 
 ---
 
